@@ -25,6 +25,8 @@ keytool -exportcert -list -v \
 ```
 4. In the Firebase console, in the settings of your Android app, add your SHA-1 key by clicking "Add Fingerprint".
 
+#You can also use reddit json api which scrapes dank memes from reddit.
+
 ## iOS Setup
 1. Create an app within your Firebase instance for iOS, with package name com.yourcompany.memechat
 2. Follow instructions to download GoogleService-Info.plist, and place it into `memechat/ios/Runner`
